@@ -13,7 +13,7 @@ scp -i AllAccessKey.pem path_to_local_file ubuntu@ip_address:path_to_remote_dire
 ## Member List Lab
 - For this exercise we will be practicing our system admin skills by creating a simple application using a gem called Paperclip.
 - You can find the documentation here: [https://github.com/thoughtbot/paperclip](https://github.com/thoughtbot/paperclip)
-- You will need to download the [starter files here]() first.
+- You will need to download the [starter files here](https://github.com/sf-wdi-gaia/member-list) first.
 - Your job is to make the application work and then deploy it to AWS.
 
 ## AWS Overview
