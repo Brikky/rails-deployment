@@ -1,5 +1,11 @@
 # Rails in Production
 
+## Member List Lab
+- For this exercise we will be practicing our system admin skills by creating a simple application using a gem called Paperclip.
+- You can find the documentation here: [https://github.com/thoughtbot/paperclip](https://github.com/thoughtbot/paperclip)
+- You will need to download the [starter files here](https://github.com/sf-wdi-gaia/member-list) first.
+- Your job is to make the application work and then deploy it to AWS.
+
 ## Environment Variables in Rails Apps
 - In production, environment variables allow you to set up single-use secrets that are to be shared across the application.
 - An example would be an API key or database password.
@@ -9,12 +15,6 @@
 ```
 scp -i AllAccessKey.pem path_to_local_file ubuntu@ip_address:path_to_remote_directory
 ```
-
-## Member List Lab
-- For this exercise we will be practicing our system admin skills by creating a simple application using a gem called Paperclip.
-- You can find the documentation here: [https://github.com/thoughtbot/paperclip](https://github.com/thoughtbot/paperclip)
-- You will need to download the [starter files here](https://github.com/sf-wdi-gaia/member-list) first.
-- Your job is to make the application work and then deploy it to AWS.
 
 ## AWS Overview
 - AWS is a powerful suite of services that give you access to many infrastructure options.
