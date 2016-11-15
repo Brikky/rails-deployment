@@ -89,6 +89,12 @@ Install Rails:
 1. Git clone your project.
 2. Bundle install.
 3. Rake db:migrate.
+
+	* May need to install postgresql and nodeJS
+	
+	`sudo apt-get install libpq-dev`
+	
+	   `sudo apt-get install nodejs`
 4. Start the server.
 5. Good to go!
 
