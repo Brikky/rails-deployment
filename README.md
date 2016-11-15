@@ -289,6 +289,30 @@ production:
 
 Install PostgreSQL Gem:
 
+Install postgres: `apt-get install postgresql`
+Create a user and database:
+```
+sudo su - postgres
+psql
+
+CREATE USER yourname WITH PASSWORD 'passwordhere';
+CREATE DATABASE metals-directory_production  WITH OWNER yourname;
+GRANT ALL PRIVILEGES ON DATABASE metals-directory_production TO yourname;
+```
+
+Update database.yml
+```
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: metals-directory_development
+  pool: 5
+  username: yourname
+  password: passwordhere   ### password you have specified within psql
+  host: localhost
+  port: 5432               ### you can configure it in file postgresql.conf
+  ```
+
 ```
 gem "pg"
 ```
